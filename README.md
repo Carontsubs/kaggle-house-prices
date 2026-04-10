@@ -58,6 +58,7 @@ EDA → Neteja nuls → Feature Engineering → Encoding → Escalar → Model �
 | 2 | XGBoost tuned | 0.1137 | - | lr=0.01, depth=4 |
 | 3 | Blend Ridge+XGBoost | 0.1100 | 0.1287 | 40% Ridge + 60% XGBoost |
 | 4 | Blend Ridge+XGBoost | 0.1093 | 0.1275 | -50 features zero-importance|---
+| 5 | Blend Ridge+XGBoost | 253 + ZonaCon | 0.1066 | 0.13043 | ZonaCon overfitting |
 
 ## 🛠️ Instal·lació
 
